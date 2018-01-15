@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "./dist/",
+      "sourceMap": false,
+      "noImplicitAny": true,
+      "target": "es6",
+      "module": "es6",
+      "moduleResolution": "node",
+      "jsx": "preserve",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowJs": true
+    },
+      "awesomeTypescriptLoaderOptions": {
+      "useBabel": true,
+      "useCache": false,
+      "emitRequireType": false
+    }
+}

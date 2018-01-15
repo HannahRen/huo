@@ -1,0 +1,135 @@
+@import "~antd/lib/style/themes/default.less";
+
+:global(.ant-back-top) {
+  bottom: 150px;
+  right: 32px;
+}
+
+:global(.hoolai-gm-user-tree-select) > span {
+  height: 5.4rem;
+  overflow-y: auto;
+}
+
+:global(.cascaderMenu) {
+  height: 250px
+}
+
+:global(.cascaderMenu) > div {
+  height: 250px
+}
+
+:global(.cascaderMenu) > div > ul {
+  height: 250px
+}
+
+:global(.ModalLongName) > div > :global(div.ant-modal-content) {
+  min-height: 400px
+}
+
+/* :global(.components-layout-demo-top-side-2 .logo) {
+  width: 195px;
+  height: 50px;
+  border-radius: 6px;
+  margin: 7px 28px 7px 0;
+  float: left;
+} */
+
+:global(.components-layout-demo-top-side-2 .logo) {
+  height: 64px;
+  position: relative;
+  line-height: 64px;
+  padding-left: (@menu-collapsed-width - 32px) / 2;
+  transition: all .3s;
+  background: #002140;
+  overflow: hidden;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+  }
+  h1 {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    margin: 0 0 0 12px;
+    font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+}
+
+:global(.components-layout-demo-top-side-2 .trigger) {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+:global(.components-layout-demo-top-side-2 .trigger:hover) {
+  color: #1890ff;
+}
+
+:global(.logo-img) {
+  width: 290px;
+}
+
+:global(.components-layout-demo-responsive .logo) {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px;
+}
+
+:global(.my-image) {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-top: 11px;
+  margin-left: 10px;
+}
+
+:global(.logo) {
+  a > img {
+    position: absolute;
+    top: 7px;
+  }
+}
+
+:global(.my-image) {
+  margin-top: -3px;
+}
+
+
+:global(.header) {
+    background: #fff;
+    box-shadow: 0 2px 8px #DBDBDB;
+    position: relative;
+    z-index: 10;
+    & > :global(.header_user) {
+      &:hover {
+        background: #e6f7ff;
+      }
+    }
+    :global(.gutter-row){
+      & > :global(.ant-menu-horizontal) {
+        background: transparent;
+        border-bottom: 0;
+        a {
+          color: #314659;
+          &:hover {
+            color: #a5a2a2;
+          }
+        }
+        > :global(.ant-menu-item-active) {
+          background: #e6f7ff;
+        }
+        > :global(.ant-menu-item-selected) {
+          background: #bceaff;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
